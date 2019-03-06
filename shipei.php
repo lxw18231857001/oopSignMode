@@ -32,7 +32,8 @@ class UserInfo implements UserInterface{
 }
 
 $obj=new User('张三');
-echo $obj->getName().'<br>';
+echo $obj->getName().'<br>';//张三
 
 $new=new UserInfo($obj);
-echo $new->getUserName()."<br>";
+echo $new->getUserName()."<br>";//张三
+
